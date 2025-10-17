@@ -24,6 +24,17 @@ There were a lot of challenges with cleaning this dataset. For example, it conta
 
 ---
 
+## Dataset Graphs:
+Class Distribution:
+![CLass Distribution](screenshots/class_distribution.png)
+
+
+
+Summary
+![Summary](screenshots/summary.png)
+
+---
+
 ## How to Run
 
 1. **Clone the repo**
@@ -48,16 +59,4 @@ Run tests
 ```bash
 Copy code
 pytest
-
----
-
-## Dataset Graphs:
-Class Distribution:
-![Class Distribution](screenshots/class_distribution.png)
-
-
-
-Summary
-![Summary](screenshots/summary.png)
-
 

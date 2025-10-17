@@ -16,7 +16,7 @@ def evaluate_model(model_path, data_path):
     disp.plot(cmap=plt.cm.Blues)
     plt.title("Confusion Matrix - Twitter Sentiment Model")
     plt.savefig("screenshots/confusion_matrix.png")
-    print("📊 Saved to screenshots/confusion_matrix.png")
+    print("Saved to screenshots/confusion_matrix.png")
 
 if __name__ == "__main__":
     evaluate_model("models/sentiment_model.pkl", "data/twitter_validation.csv")

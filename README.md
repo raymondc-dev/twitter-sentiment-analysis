@@ -28,10 +28,8 @@ There were a lot of challenges with cleaning this dataset. For example, it conta
 Class Distribution:
 ![CLass Distribution](screenshots/class_distribution.png)
 
-
-
-Summary
-![Summary](screenshots/summary.png)
+Confusion Matrix:
+![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ---
 

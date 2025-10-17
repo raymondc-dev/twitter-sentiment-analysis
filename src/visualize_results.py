@@ -12,7 +12,7 @@ def plot_distribution(path):
     plt.xlabel("Sentiment")
     plt.ylabel("Count")
     plt.savefig("screenshots/class_distribution.png")
-    print("📊 Saved to screenshots/class_distribution.png")
+    print("Saved to screenshots/class_distribution.png")
 
 if __name__ == "__main__":
     plot_distribution("data/twitter_training.csv")

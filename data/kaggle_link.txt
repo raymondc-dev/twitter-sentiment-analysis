@@ -1,0 +1,2 @@
+This is the link to the Kaggle dataset. The author is is passionate-nlp and this is fair use under the dataset's cc0:public domain lisence.
+  https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis/data

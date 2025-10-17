@@ -25,7 +25,7 @@ There were a lot of challenges with cleaning this dataset. For example, it conta
 ---
 
 ## Dataset Graphs:
-Class Distribution: 
+Class Distribution: Neutral tweets were the most common. With Positive and Negative being roughly equal.
 ![CLass Distribution](screenshots/class_distribution.png)
 
 Confusion Matrix:

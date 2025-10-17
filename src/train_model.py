@@ -21,7 +21,7 @@ def train_model(data_path):
 
     model.fit(X_train, y_train)
     joblib.dump(model, "models/sentiment_model.pkl")
-    print("✅ Model saved to models/sentiment_model.pkl")
+    print("Model saved to models/sentiment_model.pkl")
 
 if __name__ == "__main__":
     train_model("data/twitter_training.csv")

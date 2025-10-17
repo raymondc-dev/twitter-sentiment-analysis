@@ -48,3 +48,16 @@ Run tests
 ```bash
 Copy code
 pytest
+
+---
+
+## Dataset Graphs:
+Class Distribution:
+![Class Distribution](screenshots/class_distribution.png)
+
+
+
+Summary
+![Summary](screenshots/summary.png)
+
+

@@ -26,12 +26,12 @@ Dataset: [Twitter Entity Sentiment Analysis (Kaggle)](https://www.kaggle.com/dat
    cd twitter-sentiment-analysis
 Install dependencies
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
 Run scripts
 
-bash
+```bash
 Copy code
 python src/clean_data.py
 python src/train_model.py
@@ -39,6 +39,6 @@ python src/evaluate_model.py
 python src/visualize_results.py
 Run tests
 
-bash
+```bash
 Copy code
 pytest

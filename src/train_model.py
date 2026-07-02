@@ -8,7 +8,9 @@ import joblib
 def train_model(data_path):
     df = pd.read_csv(data_path)
     df.columns = ["id", "entity", "sentiment", "text"]
-    
+    df = df.dropna(subset=["sentiment", "text"]).copy()
+    df["text"] = df["text"].astype(str)
+
     X = df["text"]
     y = df["sentiment"]
 

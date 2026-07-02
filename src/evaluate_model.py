@@ -7,6 +7,8 @@ def evaluate_model(model_path, data_path):
     model = joblib.load(model_path)
     df = pd.read_csv(data_path)
     df.columns = ["id", "entity", "sentiment", "text"]
+    df = df.dropna(subset=["sentiment", "text"]).copy()
+    df["text"] = df["text"].astype(str)
 
     preds = model.predict(df["text"])
     print(classification_report(df["sentiment"], preds))

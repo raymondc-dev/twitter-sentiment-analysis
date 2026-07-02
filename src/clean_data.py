@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 
 def clean_text(text):
-    text = text.lower()
+    text = str(text).lower()
     text = re.sub(r"http\S+", "", text)
     text = re.sub(r"@\w+", "", text)
     text = re.sub(f"[{string.punctuation}]", "", text)
@@ -15,6 +15,7 @@ def clean_text(text):
 def load_and_clean(path):
     df = pd.read_csv(path)
     df.columns = ["id", "entity", "sentiment", "text"]
+    df = df.dropna(subset=["text"]).copy()
     df["text"] = df["text"].apply(clean_text)
     return df
 
